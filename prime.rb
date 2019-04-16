@@ -11,6 +11,7 @@ def prime?(num)
     range.each do |i|
       while i < num
         if num % i == 0
+          puts i
           prime.push(i)
         end
         i += 1
