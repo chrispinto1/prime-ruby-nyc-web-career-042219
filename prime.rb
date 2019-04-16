@@ -8,6 +8,7 @@ def prime?(num)
     #(2..num/2).none? { |i| num % i == 0}
     prime = []
     range = (2..num).to_a
+    puts range
     range.each do |i|
       puts i
       while i < num
