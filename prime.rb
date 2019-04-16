@@ -15,7 +15,7 @@ def prime?(num)
         end
         i += 1
       end
-      prime
+      puts prime
       if prime.size >= 2
         return false
       else
