@@ -7,7 +7,7 @@ def prime?(num)
   else
     #(2..num/2).none? { |i| num % i == 0}
     prime = []
-    range = (2..num).to_a
+    range = (2..num/2).to_a
     range.none? {|i| num % i == 0}
   end
 end
