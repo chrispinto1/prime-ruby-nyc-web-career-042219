@@ -9,9 +9,9 @@ def prime?(num)
     prime = []
     range = (2..num).to_a
     range.each do |i|
+      puts i
       while i < num
         if num % i == 0
-          puts i
           prime.push(i)
         end
         i += 1
